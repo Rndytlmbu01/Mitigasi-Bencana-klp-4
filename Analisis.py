@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression # Model Kedua
 from sklearn.metrics import classification_report, accuracy_score
 from imblearn.over_sampling import SMOTE # Teknik Over-sampling
 #rendi
-#TESTES
+#TESTES MN HHVHV
 # =========================================================
 # ⚠️ GANTI DENGAN NAMA 3 FILE CSV ANDA! ⚠️
 FILE_NAMES = [
@@ -116,4 +116,5 @@ else:
 
 
 print("==================================================")
+
 
