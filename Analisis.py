@@ -7,7 +7,7 @@ from sklearn.naive_bayes import ComplementNB
 from sklearn.linear_model import LogisticRegression # Model Kedua
 from sklearn.metrics import classification_report, accuracy_score
 from imblearn.over_sampling import SMOTE # Teknik Over-sampling
-
+#rendi
 # =========================================================
 # ⚠️ GANTI DENGAN NAMA 3 FILE CSV ANDA! ⚠️
 FILE_NAMES = [
@@ -112,5 +112,6 @@ if accuracy_lr > accuracy_cnb:
     print(f"Model Logistic Regression (Akurasi: {accuracy_lr:.4f}) lebih unggul dalam memprediksi data uji.")
 else:
     print(f"Model Complement Naive Bayes (Akurasi: {accuracy_cnb:.4f}) lebih unggul dalam memprediksi data uji.")
+
 
 print("==================================================")
